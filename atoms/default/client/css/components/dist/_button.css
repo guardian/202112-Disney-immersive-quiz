@@ -1,0 +1,15 @@
+.btn {
+  color: black;
+  display: inline-block;
+}
+.btn > .wrap {
+  background: var(--brand-alt);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  line-height: 1;
+  align-items: center;
+}

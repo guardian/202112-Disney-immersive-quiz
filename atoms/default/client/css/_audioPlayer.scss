@@ -1,0 +1,175 @@
+
+
+ ::cue {
+    font-size: 1.3rem;
+    // font-family: "Guardian Text Sans Web";
+    color: black;
+    background: #fcc242;
+ }
+
+.audio-player {
+    position: relative;
+    padding: 1rem 0;
+    // background-color: #fff;
+    // padding: 45px 1rem 1rem;
+    // background-color: #f1f1f1;
+    // align-items: flex-end;
+    // justify-content: center;
+
+    video {
+        border: 1px solid #aaa;
+        object-fit: initial;
+        // background: black;
+        display: none;
+     }    
+    .ap-container {
+        width: 100%;
+        @include mq(tablet) {
+            // display: flex;
+        }
+        // justify-content: center
+        align-items: center;
+    }
+    
+    .title {
+        color: black;
+        // padding-left: 55px;
+        // margin-bottom: -6px;
+        // @include mq(tablet) {
+        //     padding-left: 5rem;
+        // }
+    }
+    h1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        text-align: left;
+        // width: 90%;
+        margin: 0 0 .5rem;
+        padding: 0;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .AudioIcon {
+        width: 3rem;
+        border-radius: 100px;
+        margin-right: 2px;
+
+        @media screen and (min-width: map-get($mq-breakpoints, tablet) ) {
+            width: 2rem;
+        }
+    }
+    button {
+    
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        
+        svg {
+            fill: #1d1d1d;
+            height: 40px;
+            width: 40px;
+        }
+
+        &:hover, &.active {
+
+            svg {
+                fill: #000000;
+
+            }
+            .st1 {
+                fill: white;
+            }
+        }
+    }
+
+    button.btn-play {
+        svg {
+            width: 70px;
+            height: 70px;
+
+            @include mq(tablet) {
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+
+        .progress {
+            transform-origin: 50%;
+            transform: rotate(-90deg);
+        }        
+    }
+    button.btn-subs {
+        width: 50px;
+        padding: 5px;
+    }
+
+    .btn-skip {
+        width: 40px;
+        height: 40px;
+    }
+
+    .st1 {
+        fill: white;
+    }
+
+    .subs {
+        // min-height: 2rem;
+
+        text-align: center;
+        padding: 10px;
+        color: white;
+
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .progress-bar {
+        margin-bottom: 1rem;
+        width: 100%;
+        position: relative;
+        @include mq(tablet) {
+            // margin-left: 1rem;
+        }
+        // .title {
+        //     position: absolute;
+        //     top: -45px;
+        //     left: 0;
+        // }
+        .track {
+            cursor: pointer;
+            height: 8px;
+            background-color: rgba(0,0,0,.2);
+            width: 100%;
+            margin: auto;
+            .current {
+                background-color: #000000;
+                height: 100%;
+                transition: width 500ms ease;
+                will-change: width;
+            }
+        }
+        .time {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            color: black;
+            @include mq($until: tablet) {
+                font-size: 12px;
+
+            }
+        }
+    }
+
+    
+    
+}

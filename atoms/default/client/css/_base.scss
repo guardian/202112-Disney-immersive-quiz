@@ -1,0 +1,2418 @@
+/*-
+
+    Styling Structure!
+
+-*/
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/************************* */
+/************************* */
+/************************* */
+/************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+/******************************************* */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #Glabs #Header .FlexHeader #MainTitle {
+      position: relative; }
+    #Glabs #Header .FlexHeader #MainTitle .SponserTab {
+      right: 0;
+      width: unset; }
+    #Glabs #Header #BG_Image_Container #BG_Image {
+      background-position: center; }
+    #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA {
+      min-height: 250px; }
+    .scroll::-webkit-scrollbar {
+      width: 12px; }
+    .scroll::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px; }
+    .scroll::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
+    .Dialog .DialogInner .InnerSwipe .CardOuter {
+      overflow: hidden !important; }
+      .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent {
+        padding: .5rem 3% 0;
+        width: 94%; }
+        .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent div {
+          width: 94%; } }
+  
+  @media only screen and (-ms-high-contrast: active) and (min-width: 576px) and (max-width: 768px) {
+    #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA {
+      min-height: 170px; } }
+  
+  /******************************************* */
+  /*- Resets -*/
+  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+  /* Document
+     ========================================================================== */
+  /**
+   * 1. Correct the line height in all browsers.
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   */
+  html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */ }
+  
+  /* Sections
+     ========================================================================== */
+  /**
+   * Remove the margin in all browsers.
+   */
+  body {
+    margin: 0; }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  main {
+    display: block; }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0; }
+  
+  /* Grouping content
+     ========================================================================== */
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  hr {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */ }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */ }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  a {
+    background-color: transparent; }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    -webkit-text-decoration: underline dotted;
+            text-decoration: underline dotted;
+    /* 2 */ }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  b,
+  strong {
+    font-weight: bold; }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */ }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  small {
+    font-size: 80%; }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+  
+  sub {
+    bottom: -0.25em; }
+  
+  sup {
+    top: -0.5em; }
+  
+  /* Embedded content
+     ========================================================================== */
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  img {
+    border-style: none; }
+  
+  /* Forms
+     ========================================================================== */
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */ }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  button,
+  input {
+    /* 1 */
+    overflow: visible; }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  button,
+  select {
+    /* 1 */
+    text-transform: none; }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button; }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  fieldset {
+    padding: 0.35em 0.75em 0.625em; }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  legend {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */ }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  progress {
+    vertical-align: baseline; }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  textarea {
+    overflow: auto; }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  [type="checkbox"],
+  [type="radio"] {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */ }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto; }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  [type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */ }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */ }
+  
+  /* Interactive
+     ========================================================================== */
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  details {
+    display: block; }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  summary {
+    display: list-item; }
+  
+  /* Misc
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 10+.
+   */
+  template {
+    display: none; }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  [hidden] {
+    display: none; }
+  
+
+    @font-face {
+      font-family: "Guardian Headline Full";
+      src: url("https://interactive.guim.co.uk/fonts/garnett/GHGuardianHeadline-Regular.woff2") format("woff2"),
+      url("https://interactive.guim.co.uk/fonts/garnett/GHGuardianHeadline-Regular.woff") format("woff"),
+      url("https://interactive.guim.co.uk/fonts/garnett/GHGuardianHeadline-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+  }
+
+ 
+  #Top .BodyCopy {
+    // padding: 0 25% 0 0;
+    position: relative; }
+    #Top .BodyCopy .ClientDetails {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 1px dotted #DCDCDC;
+      border-bottom: 1px dotted #DCDCDC;
+      padding: 5px 0 15px;
+      width: 15%; }
+      #Top .BodyCopy .ClientDetails span {
+        font-size: .8rem;
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 10px 0; }
+      #Top .BodyCopy .ClientDetails img {
+        width: 100%; }
+      @media only screen and (min-width: 1024px) {
+        #Top .BodyCopy .ClientDetails {
+          width: 12%; } }
+      @media only screen and (min-width: 990px) and (max-width: 1024) {
+        #Top .BodyCopy .ClientDetails {
+          width: 15%; } }
+      @media only screen and (max-width: 768px) {
+        #Top .BodyCopy .ClientDetails {
+          position: relative;
+          width: 100%;
+          margin: 10px 0; }
+          #Top .BodyCopy .ClientDetails img {
+            width: auto; } }
+  
+  @media only screen and (max-width: 768px) {
+    #Top .BodyCopy {
+      padding: 0 3% 0 0; } }
+  
+  p.standfirst {
+    font-size: 1.125rem;
+    line-height: 1.125;
+    margin: 0 0 20px 0; }
+  
+  #Bottom .BodyCopy {
+    border-bottom: 1px solid #9B9B9B;
+    padding: 0; }
+    #Bottom .BodyCopy p {
+      font-style: italic;
+      font-weight: 800;
+      font-size: 16px; }
+  
+  p.cta {
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    padding: 2rem 10rem;
+    margin: 2rem 0 0;
+    font-size: 1.25rem;
+    line-height: 1.25; }
+    p.cta a {
+      font-weight: bold;
+      color: #131A1C; }
+  
+  blockquote::before {
+    content: open-quote; }
+  
+  blockquote::after {
+    content: close-quote; }
+  
+  a {
+    text-decoration: none;
+    color: #000; }
+  
+  a:hover {
+    text-decoration: none; }
+  
+  h1 {
+    font-size: 3.125rem; }
+  
+  h2 {
+    font-size: 2.5rem; }
+  
+  p {
+    font-size: 1rem; }
+  
+  a {
+    font-size: 1.15rem; }
+  
+  blockquote {
+    font-size: 1.5rem; }
+  
+  h1 {
+    line-height: 3.7; }
+  
+  h2 {
+    line-height: 2.4; }
+  
+  p {
+    line-height: 1.5; }
+  
+  blockquote {
+    line-height: 1.5; }
+  
+  h1 {
+    font-weight: bold; }
+  
+  h2 {
+    font-weight: bold; }
+  
+  p {
+    font-weight: 100; }
+  
+  blockquote {
+    font-weight: bold; }
+  
+  a {
+    font-weight: bold; }
+  
+  @media only screen and (max-width: 1024px) {
+    p.cta {
+      padding: 2rem 3rem; } }
+  
+  @media only screen and (max-width: 568px) {
+    h1 {
+      font-size: 2.35rem; }
+    h2 {
+      font-size: 1.2rem; }
+    p {
+      font-size: 1rem; }
+    a {
+      font-size: 1rem; }
+    blockquote {
+      font-size: 1.1rem; }
+    h1 {
+      line-height: 2.5; }
+    h2 {
+      line-height: 1.5; }
+    p {
+      line-height: 1.5; }
+    blockquote {
+      line-height: 1.1; }
+    h1 {
+      font-weight: bold; }
+    h2 {
+      font-weight: bold; }
+    p {
+      font-weight: 100; }
+    blockquote {
+      font-weight: bold; }
+    p.cta {
+      padding: 2rem 0rem; } }
+  
+  /*- Build up Dom Elements -*/
+  #Glabs {
+    background-color: #ffffff;
+    /*
+      // Glabs Container
+      @include BMP($PrimaryColor,0%,0%) ;
+   
+      // Global Page Elements 
+      // EG: btns, links, etc. Things that wont be affected by Device size and width.
+      @import "../components/Btns/_btns.scss"; 
+      @import "../reset/_typography.scss";
+  
+      // Media Queries
+      // Global Page Styles
+      @import "../mediaqueries/_Golbal.scss";
+      // Mobile
+      @import "../mediaqueries/_Mobile.scss";
+      // Tablet
+      @import "../mediaqueries/_Tablet.scss";
+      // Desktop
+      @import "../mediaqueries/_Desktop.scss";
+  */
+    /* ----------------------------------------------
+   * Generated by Animista on 2019-6-21 10:46:25
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+    /**
+   * ----------------------------------------
+   * animation scale-in-center
+   * ----------------------------------------
+   */
+    /* Smartphones (portrait and landscape) ----------- */
+    /* Large Phones ----------- */
+    /* Medium Phones ----------- */
+    /* Small Phones ----------- */
+    /* Smartphones (portrait) ----------- */
+    /************ 
+  ** Application Variables
+  *************/ }
+    #Glabs #LoadingScreen {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      height: 100vh;
+      width: 100vw;
+      background-color: #131A1C;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#314c56+0,21333a+100 */
+      background: #314c56;
+      /* Old browsers */
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #314c56 0%, #21333a 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: -webkit-gradient(linear, left top, left bottom, from(#314c56), to(#21333a));
+      background: -o-linear-gradient(top, #314c56 0%, #21333a 100%);
+      background: linear-gradient(to bottom, #314c56 0%, #21333a 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#314c56', endColorstr='#21333a',GradientType=0 );
+      /* IE6-9 */ }
+      #Glabs #LoadingScreen .lds-ripple {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        display: inline-block;
+        position: relative;
+        width: 310px;
+        height: 310px; }
+      #Glabs #LoadingScreen .lds-ripple div {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        border: 2px solid #7BA88C;
+        opacity: 1;
+        border-radius: 50%;
+        -webkit-animation: lds-ripple 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+                animation: lds-ripple 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+      #Glabs #LoadingScreen .lds-ripple div:nth-child(2) {
+        -webkit-animation-delay: -0.5s;
+                animation-delay: -0.5s;
+        border-color: #fefdf8; }
+      #Glabs #LoadingScreen .lds-ripple div:nth-child(3) {
+        -webkit-animation-delay: -1s;
+                animation-delay: -1s;
+        border-color: #69D1CA; }
+  
+  @-webkit-keyframes lds-ripple {
+    0% {
+      top: 50%;
+      width: 0;
+      height: 0;
+      opacity: 1; }
+    100% {
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      opacity: 0; } }
+  
+  @keyframes lds-ripple {
+    0% {
+      top: 50%;
+      width: 0;
+      height: 0;
+      opacity: 1; }
+    100% {
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      opacity: 0; } }
+    #Glabs #Header {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      height: 80vh;
+      /**
+   * ----------------------------------------
+   * animation kenburns-bottom
+   * ----------------------------------------
+   */ }
+      #Glabs #Header #BG_Image_Container {
+        height: 100%;
+        width: 100%;
+        -ms-flex-order: 2;
+            order: 2;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden; }
+        #Glabs #Header #BG_Image_Container #BG_Image {
+          height: 100%;
+          width: 100%;
+          background-position: top center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed; }
+        @media only screen and (max-width: 576px) {
+          #Glabs #Header #BG_Image_Container #BG_Image {
+            -webkit-animation: none;
+            animation: none;
+            background-size: auto 100%;
+            background-position: top;
+            background-attachment: unset; } }
+  
+  @-webkit-keyframes kenburns-bottom {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+      transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 84%;
+      transform-origin: 50% 84%; }
+    100% {
+      -webkit-transform: scale(1.25) translateY(15px);
+      transform: scale(1.25) translateY(15px);
+      -webkit-transform-origin: bottom;
+      transform-origin: bottom; } }
+  
+  @-webkit-keyframes kenburns-bottom-mobile {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+      transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 84%;
+      transform-origin: 50% 84%; }
+    100% {
+      -webkit-transform: scale(1) translateY(0);
+      transform: scale(1) translateY(0);
+      -webkit-transform-origin: top;
+      transform-origin: top; } }
+      #Glabs #Header .FlexHeader {
+        height: 80vh;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        /**
+   * ----------------------------------------
+   * animation tracking-in-expand
+   * ----------------------------------------
+   */
+        /* ----------------------------------------------
+   * Generated by Animista on 2019-6-14 15:46:50
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+        /**
+   * ----------------------------------------
+   * animation slide-in-bottom
+   * ----------------------------------------
+   */
+        /* ----------------------------------------------
+   * Generated by Animista on 2019-6-21 14:40:26
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+        /**
+   * ----------------------------------------
+   * animation slide-in-top
+   * ----------------------------------------
+   */ }
+        #Glabs #Header .FlexHeader #TopBar {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+              flex-direction: row;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+          -ms-flex-align: center;
+              align-items: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+          width: 100vw;
+          background-color: rgba(0, 0, 0, 0.8);
+          height: -webkit-max-content;
+          height: -moz-max-content;
+          height: max-content;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          color: #fefdf8;
+          z-index: 50; }
+          #Glabs #Header .FlexHeader #TopBar div {
+            padding: 0 2%;
+            -ms-flex-preferred-size: 50%;
+                flex-basis: 50%; }
+            #Glabs #Header .FlexHeader #TopBar div a {
+              color: #69D1CA; }
+          #Glabs #Header .FlexHeader #TopBar div.ClientDetails {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: row;
+                flex-direction: row;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+            -ms-flex-align: center;
+                align-items: center;
+            -ms-flex-line-pack: center;
+                align-content: center; }
+            #Glabs #Header .FlexHeader #TopBar div.ClientDetails img {
+              width: 55px;
+              margin: 0 10px; }
+            #Glabs #Header .FlexHeader #TopBar div.ClientDetails span {
+              font-size: 0.8em; }
+          @media only screen and (max-width: 568px) {
+            #Glabs #Header .FlexHeader #TopBar {
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+              -ms-flex-pack: center;
+                  justify-content: center;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+              -ms-flex-line-pack: center;
+                  align-content: center; }
+              #Glabs #Header .FlexHeader #TopBar div {
+                -ms-flex-preferred-size: 100%;
+                    flex-basis: 100%; } }
+        #Glabs #Header .FlexHeader #MainTitle {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: column;
+              flex-direction: column;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+          -ms-flex-line-pack: start;
+              align-content: flex-start;
+          /*
+      .SponserTab{
+        width: 10%;
+        align-self: flex-end;
+        position: absolute;
+    
+        overflow: hidden;
+        height: 100px;
+        
+          .SponserTabInner{
+            opacity: 1;
+            padding-top: .5em;
+  
+             
+          }
+  
+          .SponserTabInner.ShowTab{
+            -webkit-animation: slide-in-top  2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-top  2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: .5s;
+          }
+          .SponserTabInner.HideTab{
+            opacity: 1;
+            -webkit-animation: slide-Out-top   4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-Out-top   4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: .5s;
+          }
+      
+        
+      }
+    */ }
+          @media only screen and (min-width: 1824px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 78.75rem; } }
+          @media only screen and (min-width: 1824px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 78.75rem; } }
+          @media only screen and (min-width: 1200px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 68.75rem; } }
+          @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 58.75rem; } }
+          @media only screen and (min-width: 992px) and (max-width: 1024px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 43.75rem; } }
+          @media only screen and (min-width: 768px) and (max-width: 992px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 43.75rem; } }
+          @media only screen and (min-width: 576px) and (max-width: 768px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 33.75rem; } }
+          @media only screen and (min-width: 480px) and (max-width: 576px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 95%; } }
+          @media only screen and (min-width: 320px) and (max-width: 480px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 95%; } }
+          @media only screen and (max-width: 320px) {
+            #Glabs #Header .FlexHeader #MainTitle {
+              width: 95%; } }
+          #Glabs #Header .FlexHeader #MainTitle .TitleTab {
+            overflow: hidden;
+            width: 50%; }
+            #Glabs #Header .FlexHeader #MainTitle .TitleTab .InnerTitleTab {
+              background-color: #FBC74A;
+              padding: 1.2em;
+              -webkit-animation-delay: 0s;
+                      animation-delay: 0s; }
+              #Glabs #Header .FlexHeader #MainTitle .TitleTab .InnerTitleTab h1 {
+                font-size: 1rem;
+                margin: 0;
+                line-height: 0; }
+                #Glabs #Header .FlexHeader #MainTitle .TitleTab .InnerTitleTab h1 a {
+                  color: #131A1C; }
+          @media only screen and (max-width: 768px) {
+            #Glabs #Header .FlexHeader #MainTitle .TitleTab {
+              width: 100%; } }
+          @media only screen and (min-width: 1824px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 78.75rem; } }
+          @media only screen and (min-width: 1824px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 78.75rem; } }
+          @media only screen and (min-width: 1200px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 68.75rem; } }
+          @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 58.75rem; } }
+          @media only screen and (min-width: 992px) and (max-width: 1024px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 43.75rem; } }
+          @media only screen and (min-width: 768px) and (max-width: 992px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 43.75rem; } }
+          @media only screen and (min-width: 576px) and (max-width: 768px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 33.75rem; } }
+          @media only screen and (min-width: 480px) and (max-width: 576px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 95%; } }
+          @media only screen and (min-width: 320px) and (max-width: 480px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 95%; } }
+          @media only screen and (max-width: 320px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 95%; } }
+          #Glabs #Header .FlexHeader #MainTitle #TitleContainer .Title-Container {
+            background-color: #131A1C;
+            width: 100%;
+            padding: 2em 0;
+            text-indent: 0; }
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer .Title-Container h1 {
+              margin: 0;
+              padding: 0 0 0 1rem;
+              color: #fefdf8;
+              width: 75%; }
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer .Title-Container h1 + h1 {
+              width: 75%; }
+          @media only screen and (min-width: 568px) and (max-width: 990px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer .Title-Container h1 {
+              width: 90%; } }
+          @media only screen and (max-width: 568px) {
+            #Glabs #Header .FlexHeader #MainTitle #TitleContainer {
+              width: 100%; }
+              #Glabs #Header .FlexHeader #MainTitle #TitleContainer .Title-Container {
+                width: 100%;
+                padding: 2em 0;
+                text-indent: 0; }
+                #Glabs #Header .FlexHeader #MainTitle #TitleContainer .Title-Container h1 {
+                  width: 90%; } }
+  
+  @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0; }
+    40% {
+      opacity: 0.7; }
+    100% {
+      opacity: 1; } }
+  
+  @-webkit-keyframes Fill-Title {
+    0% {
+      width: 0%;
+      opacity: 0; }
+    40% {
+      opacity: 0; }
+    100% {
+      width: 100%;
+      opacity: 1; } }
+  
+  @-webkit-keyframes Fill-Title-Small {
+    0% {
+      width: 0vw;
+      opacity: 0; }
+    50% {
+      width: 1vw;
+      opacity: 0; }
+    100% {
+      width: 100%;
+      opacity: 1; } }
+  
+  @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+      transform: translateY(1000px);
+      opacity: 0; }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1; } }
+  
+  @-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+      transform: translateY(-1000px);
+      opacity: 0; }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1; } }
+  
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+      transform: translateY(-1000px);
+      opacity: 0; }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1; } }
+  
+  @-webkit-keyframes slide-Out-top {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1; }
+    100% {
+      -webkit-transform: translateY(-1000px);
+      transform: translateY(-1000px);
+      opacity: 0; } }
+  
+  @keyframes slide-Out-top {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1; }
+    100% {
+      -webkit-transform: translateY(-1000px);
+      transform: translateY(-1000px);
+      opacity: 0; } }
+        @media only screen and (max-width: 992px) and (min-width: 576px) {
+          #Glabs #Header .FlexHeader {
+            height: 80vh; } }
+        @media only screen and (max-width: 576px) {
+          #Glabs #Header .FlexHeader {
+            height: 80vh; } }
+      @media only screen and (max-width: 992px) and (min-width: 576px) {
+        #Glabs #Header {
+          height: 80vh; } }
+      @media only screen and (max-width: 576px) {
+        #Glabs #Header {
+          height: 80vh; } }
+    #Glabs .GlabsContainer {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; }
+      @media only screen and (min-width: 1824px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 78.75rem; } }
+      @media only screen and (min-width: 1824px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 78.75rem; } }
+      @media only screen and (min-width: 1200px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 68.75rem; } }
+      @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 58.75rem; } }
+      @media only screen and (min-width: 992px) and (max-width: 1024px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 43.75rem; } }
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 43.75rem; } }
+      @media only screen and (min-width: 576px) and (max-width: 768px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 33.75rem; } }
+      @media only screen and (min-width: 480px) and (max-width: 576px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 95%; } }
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 95%; } }
+      @media only screen and (max-width: 320px) {
+        #Glabs .GlabsContainer .ResponsiveContainer {
+          width: 95%; } }
+    #Glabs #SocialMediaIcons {
+      padding-bottom: 2em; }
+      #Glabs #SocialMediaIcons .GlabsContainer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-line-pack: start;
+            align-content: flex-start; }
+        @media only screen and (min-width: 1824px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 78.75rem; } }
+        @media only screen and (min-width: 1824px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 78.75rem; } }
+        @media only screen and (min-width: 1200px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 68.75rem; } }
+        @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 58.75rem; } }
+        @media only screen and (min-width: 992px) and (max-width: 1024px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 43.75rem; } }
+        @media only screen and (min-width: 768px) and (max-width: 992px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 43.75rem; } }
+        @media only screen and (min-width: 576px) and (max-width: 768px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 33.75rem; } }
+        @media only screen and (min-width: 480px) and (max-width: 576px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 95%; } }
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 95%; } }
+        @media only screen and (max-width: 320px) {
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer {
+            width: 95%; } }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe {
+          padding: 1rem 0;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: column;
+              flex-direction: column;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+          -ms-flex-line-pack: start;
+              align-content: flex-start; }
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe h3 {
+            margin: 0;
+            display: none; }
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: row;
+                flex-direction: row;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            -ms-flex-pack: center;
+                justify-content: center;
+            -ms-flex-align: center;
+                align-items: center;
+            -ms-flex-line-pack: start;
+                align-content: flex-start;
+            padding: 0;
+            margin: 0 0 1rem 0;
+            list-style: none; }
+            #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li {
+              margin: .2rem;
+              cursor: pointer; }
+              #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li svg {
+                background-color: transparent !important; }
+                #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li svg path {
+                  fill: #fefdf8; }
+              #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li circle, #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li rect {
+                fill: #69D1CA; }
+            #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Facebook circle, #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Facebook rect {
+              fill: #005689; }
+            #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Twitter circle, #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Twitter rect {
+              fill: #03B3EE; }
+            #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Linkden circle, #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Linkden rect {
+              fill: #005689; }
+            #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Whatsapp circle, #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Whatsapp rect {
+              fill: #075e54; }
+            #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Email circle, #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe ul.ShareButtons li.Email rect {
+              fill: #767676; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li {
+          -webkit-animation: scale-in-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: scale-in-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          -webkit-animation-delay: 0.1s;
+                  animation-delay: 0.1s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li:nth-child(2) {
+          -webkit-animation-delay: 0.2s;
+                  animation-delay: 0.2s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li:nth-child(3) {
+          -webkit-animation-delay: 0.3s;
+                  animation-delay: 0.3s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li:nth-child(4) {
+          -webkit-animation-delay: 0.4s;
+                  animation-delay: 0.4s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li:nth-child(5) {
+          -webkit-animation-delay: 0.3s;
+                  animation-delay: 0.3s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li:nth-child(6) {
+          -webkit-animation-delay: 0.2s;
+                  animation-delay: 0.2s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.show ul li:nth-child(7) {
+          -webkit-animation-delay: 0.1s;
+                  animation-delay: 0.1s; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer #ShareMe.hide ul li {
+          opacity: 0; }
+        #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer .ClientDetails {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+              flex-direction: row;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -ms-flex-pack: center;
+              justify-content: center;
+          -ms-flex-align: center;
+              align-items: center;
+          -ms-flex-line-pack: start;
+              align-content: flex-start; }
+          #Glabs #SocialMediaIcons .GlabsContainer .ResponsiveContainer .ClientDetails img {
+            width: 80px;
+            margin: 0 1rem; }
+  
+  @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 1; }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1; } }
+  
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 1; }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1; } }
+    #Glabs #Footer {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: start;
+          align-items: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+      margin-bottom: 1rem; }
+      #Glabs #Footer h3 {
+        font-size: 1.1rem;
+        font-weight: 100;
+        margin-bottom: 0;
+        padding: 7px 10px 5px;
+        border-radius: 5px 5px 0 0; }
+        #Glabs #Footer h3 a {
+          font-size: 1rem;
+          font-weight: 800;
+          color: #131A1C; }
+      #Glabs #Footer .InnerFooter {
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-line-pack: space-evenly;
+            align-content: space-evenly; }
+        #Glabs #Footer .InnerFooter .PartnerZoneLinks {
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+          -ms-flex-preferred-size: 49%;
+              flex-basis: 49%;
+          margin: .5%;
+          border-top: 1px solid #86d9d3;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+              flex-direction: row;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -ms-flex-pack: center;
+              justify-content: center;
+          -ms-flex-align: center;
+              align-items: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+          background-color: #f6f6f6;
+          color: #131A1C; }
+          #Glabs #Footer .InnerFooter .PartnerZoneLinks a {
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+            padding: .1rem .5rem 1rem;
+            color: #131A1C;
+            text-align: left;
+            min-height: 80px;
+            margin-top: .5rem;
+            text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            -webkit-transition: all .5s;
+            /* Safari prior 6.1 */
+            -o-transition: all .5s;
+            transition: all .5s;
+            font-weight: 100; }
+          #Glabs #Footer .InnerFooter .PartnerZoneLinks a:hover {
+            text-shadow: 0 0 0 rgba(0, 0, 0, 0.35);
+            text-decoration: underline; }
+      @media only screen and (min-width: 1824px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 78.75rem; } }
+      @media only screen and (min-width: 1824px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 78.75rem; } }
+      @media only screen and (min-width: 1200px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 68.75rem; } }
+      @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 58.75rem; } }
+      @media only screen and (min-width: 992px) and (max-width: 1024px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 43.75rem; } }
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 43.75rem; } }
+      @media only screen and (min-width: 576px) and (max-width: 768px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 33.75rem; } }
+      @media only screen and (min-width: 480px) and (max-width: 576px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 95%; } }
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 95%; } }
+      @media only screen and (max-width: 320px) {
+        #Glabs #Footer div.GlabsContainer {
+          width: 95%; } }
+      #Glabs #Footer div.GlabsContainer div.ResponsiveContainer {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        /* Smartphones (portrait and landscape) ----------- */
+        /* Large Phones ----------- */
+        /* Medium Phones ----------- */
+        /* Small Phones ----------- */
+        /* Smartphones (portrait) ----------- */
+        /* Smartphones (portrait and landscape) ----------- */
+        /* Large Phones ----------- */
+        /* Medium Phones ----------- */
+        /* Small Phones ----------- */
+        /* Smartphones (portrait) ----------- */ }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe {
+          background-color: #69D1CA;
+          color: #131A1C;
+          border-radius: 8px;
+          padding: 5px 10px;
+          border: 2px solid #131A1C;
+          display: inline-block; }
+          #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe h3 {
+            font-size: 1em;
+            font-weight: 100;
+            display: inline-block;
+            line-height: 2em;
+            margin: 0 10px 0 0;
+            color: #131A1C;
+            font-family: "TS3 Text Sans"; }
+          #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: -ms-flexbox;
+            display: flex;
+            float: right; }
+            #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe ul li {
+              margin: 0 2px;
+              cursor: pointer; }
+              #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe ul li svg {
+                background-color: transparent !important; }
+                #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe ul li svg path {
+                  fill: #131A1C; }
+              #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe ul li circle, #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #ShareMe ul li rect {
+                fill: #69D1CA; }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .ReadMore {
+          font-weight: 100;
+          -webkit-transition: all .4s ease-in;
+          -o-transition: all .4s ease-in;
+          transition: all .4s ease-in;
+          color: #131A1C;
+          line-height: 1.3em;
+          display: inline-block;
+          margin: 8px 0; }
+          #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .ReadMore strong {
+            font-weight: 800; }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .ReadMore:hover {
+          text-decoration: none; }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .chevron.right:before {
+          display: none;
+          left: 0;
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .chevron.bottom:before {
+          top: 0;
+          -webkit-transform: rotate(135deg);
+              -ms-transform: rotate(135deg);
+                  transform: rotate(135deg); }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .chevron.left:before {
+          left: 0.25em;
+          -webkit-transform: rotate(-135deg);
+              -ms-transform: rotate(-135deg);
+                  transform: rotate(-135deg); }
+        #Glabs #Footer div.GlabsContainer div.ResponsiveContainer #PartnerZone .chevron::before {
+          border-style: solid;
+          border-width: 0.15em 0.15em 0 0;
+          content: '';
+          display: inline-block;
+          height: 0.45em;
+          left: 0.15em;
+          position: relative;
+          top: 1.1em;
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+          vertical-align: top;
+          width: 0.45em; }
+    @media only screen and (max-width: 576px) {
+      #Glabs #Footer .InnerFooter {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-line-pack: space-evenly;
+            align-content: space-evenly; } }
+    #Glabs .TheGrid {
+      padding: auto;
+      background-color: #ffffff;
+      margin-bottom: 50px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+      /* Medium Phones ----------- */
+      /* Small Phones ----------- */
+      /* Smartphones (portrait) ----------- */ }
+      #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar, #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar {
+        height: 100%;
+        background-color: transparent; }
+      #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2 {
+        color: #fefdf8;
+        font-size: 1.2em;
+        line-height: 1.1em;
+        text-align: left;
+        font-family: "Guardian Headline Regular";
+        letter-spacing: 0px;
+        margin-bottom: 0px;
+        font-weight: 100; }
+      #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h4 {
+        color: #fefdf8;
+        font-size: .9em;
+        line-height: 1em;
+        text-align: left;
+        font-family: "Guardian Headline Regular";
+        font-weight: 100; }
+      #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel i, #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i {
+        color: #fefdf8;
+        font-size: 1.2em;
+        line-height: 1.1em;
+        text-align: left;
+        width: 100%;
+        float: unset;
+        opacity: 1;
+        display: block; }
+      #Glabs .TheGrid .GridItem {
+        padding: 0px;
+        overflow: hidden;
+        -ms-flex-preferred-size: 24%;
+            flex-basis: 24%;
+        margin: .5%; }
+        #Glabs .TheGrid .GridItem .ItemOuter {
+          position: relative;
+          border-radius: 0;
+          -webkit-box-shadow: unset;
+          box-shadow: unset;
+          border: 0px solid #fefdf8; }
+          #Glabs .TheGrid .GridItem .ItemOuter .CardCTA {
+            display: -ms-flexbox;
+            display: flex; }
+            #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA {
+              width: 100%;
+              display: inline-block;
+              background-size: cover;
+              background-position: center center;
+              cursor: pointer;
+              position: relative; }
+              #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar {
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+                height: 100%;
+                text-align: left;
+                border-bottom: 5px solid #7BA88C;
+                -webkit-transition: all .7s;
+                -o-transition: all .7s;
+                transition: all .7s;
+                background-image: url(https://gdn-cdn.s3.amazonaws.com/embed/2019/07/get-cultured/assets/images/HeaderGradient.png);
+                background-position: bottom;
+                background-repeat: repeat-x;
+                background-size: auto 50%; }
+                #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel {
+                  position: absolute;
+                  bottom: 3%;
+                  left: 3%;
+                  -webkit-transition: all .7s;
+                  -o-transition: all .7s;
+                  transition: all .7s; }
+                  #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2 {
+                    -webkit-transition: all .7s;
+                    -o-transition: all .7s;
+                    transition: all .7s; }
+                  #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h4 {
+                    -webkit-transition: all .7s;
+                    -o-transition: all .7s;
+                    transition: all .7s; }
+                  #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i {
+                    display: table-column-group;
+                    -webkit-transition: all .7s;
+                    -o-transition: all .7s;
+                    transition: all .7s; }
+              #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar::before {
+                background-color: rgba(123, 168, 140, 0.7);
+                height: 0%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                content: "";
+                position: absolute; }
+          #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar {
+            border-bottom: 0rem solid rgba(123, 168, 140, 0.7); }
+            #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel {
+              -webkit-transition: all .7s;
+              -o-transition: all .7s;
+              transition: all .7s;
+              bottom: 30%; }
+              #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel h2 {
+                -webkit-transition: all .7s;
+                -o-transition: all .7s;
+                transition: all .7s; }
+              #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel i {
+                -webkit-transition: all .7s;
+                -o-transition: all .7s;
+                transition: all .7s; }
+          #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar::before {
+            background-color: rgba(123, 168, 140, 0.8);
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            content: "";
+            position: absolute;
+            -webkit-transition: all .7s;
+            -o-transition: all .7s;
+            transition: all .7s; }
+      #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter {
+        border: 1px solid #69D1CA; }
+        #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar {
+          border-bottom: 0rem solid rgba(123, 168, 140, 0.7); }
+          #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel {
+            -webkit-transition: all .7s;
+            -o-transition: all .7s;
+            transition: all .7s;
+            bottom: 30%; }
+            #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2 {
+              -webkit-transition: all .7s;
+              -o-transition: all .7s;
+              transition: all .7s; }
+            #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i {
+              -webkit-transition: all .7s;
+              -o-transition: all .7s;
+              transition: all .7s; }
+        #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar::before {
+          background-color: rgba(123, 168, 140, 0.8);
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          content: "";
+          position: absolute;
+          -webkit-transition: all .7s;
+          -o-transition: all .7s;
+          transition: all .7s; }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        #Glabs .TheGrid .GridItem .CardCTA:hover a.GridItemCTA .ActionBar {
+          border-bottom: 11rem solid rgba(123, 168, 140, 0.7) !important; } }
+      @media only screen and (max-width: 768px) {
+        #Glabs .TheGrid .GridItem {
+          -ms-flex-preferred-size: 49%;
+              flex-basis: 49%;
+          margin: .5%; } }
+      #Glabs .TheGrid .count {
+        position: absolute;
+        color: #131A1C;
+        background-color: #69D1CA;
+        padding: 5px;
+        width: 3em;
+        text-align: center;
+        top: 0;
+        right: 0;
+        bottom: unset;
+        left: unset; }
+      .FilterBar {
+        width: 100%;
+        display: block;
+        margin: 10px 0; }
+        .FilterBar .FilterButton {
+          border: 1px solid white;
+          color: white;
+          float: right; }
+      .CloseCard {
+        position: absolute !important;
+        top: .5%;
+        right: 7.5%;
+        z-index: 9999;
+        border-radius: unset !important;
+        margin: 10px;
+        background-color: #E9E9E9 !important;
+        color: black !important;
+        border-radius: 100px !important;
+        width: 25px !important;
+        height: 25px !important;
+        cursor: pointer; }
+        .CloseCard .material-icons {
+          color: #131A1C;
+          font-size: .8em; }
+        @media only screen and (max-width: 576px) {
+          .CloseCard {
+            right: 1.5%; } }
+    .FilterDialog, .Dialog {
+      background-color: rgba(255, 255, 255, 0.3); }
+    .FilterDialog .MuiDialog-paperWidthMd-45 {
+      background-color: rgba(33, 51, 58, 0.9); }
+    .FilterDialog .MuiDialog-paperWidthMd-45 h2, .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent h1, .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent h2 {
+      color: #00A194;
+      font-size: 1.5em;
+      margin: 0 0 10px 0;
+      font-weight: 800; }
+    .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p {
+      color: #131A1C;
+      font-size: 1em;
+      line-height: 1.4em;
+      margin: 0px 0 20px;
+      font-family: "TS3 Text Sans"; }
+    .FilterDialog .MuiDialog-paperWidthMd-45 button {
+      color: #131A1C;
+      border: 1px solid #131A1C; }
+    .FilterDialog .MuiDialog-paperWidthMd-45 form label {
+      color: #131A1C; }
+    .FilterDialog .MuiDialog-paperWidthMd-45 {
+      width: 500px; }
+    .Dialog {
+      -webkit-box-shadow: unset !important;
+              box-shadow: unset !important;
+      scrollbar-width: none; }
+      .Dialog ::-webkit-scrollbar {
+        width: 0px; }
+      .Dialog ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        border-radius: 0px; }
+      .Dialog ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); }
+      .Dialog > div + div {
+        background-color: transparent;
+        -webkit-box-shadow: unset;
+                box-shadow: unset;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        scrollbar-width: none; }
+      .Dialog .DialogInner {
+        position: relative;
+        margin: 0;
+        padding: 0; }
+        .Dialog .DialogInner .InnerSwipe {
+          margin: 2% 9%;
+          width: 82%;
+          background-color: transparent; }
+          .Dialog .DialogInner .InnerSwipe .CardOuter {
+            background-color: transparent;
+            height: auto; }
+            .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow {
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+              -ms-flex-align: stretch;
+                  align-items: stretch;
+              -ms-flex-line-pack: stretch;
+                  align-content: stretch;
+              height: auto;
+              margin: 0; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage {
+                height: 45vh;
+                padding: 0;
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+                -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+                -ms-flex-align: stretch;
+                    align-items: stretch; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay {
+                  font-family: "TS3 Text Sans";
+                  width: 100%;
+                  background-image: url(https://gdn-cdn.s3.amazonaws.com/embed/2019/07/get-cultured/assets/images/HeaderGradient.png);
+                  background-position: bottom;
+                  background-repeat: repeat-x;
+                  background-size: 100% 100%; }
+                  .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h1 {
+                    color: #fefdf8;
+                    font-family: "Guardian Headline Regular";
+                    display: table;
+                    margin: 0px;
+                    padding: 0 1.5rem  1.2rem;
+                    position: relative;
+                    font-size: 2.2em;
+                    line-height: 1.1em;
+                    letter-spacing: 1px;
+                    font-weight: 100; }
+                  .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h2 {
+                    color: #fefdf8;
+                    font-family: "Guardian Headline Regular";
+                    font-size: 1.8em;
+                    line-height: 1.1em;
+                    margin: 0 0 10px 0;
+                    margin: 0px 0 15px 20px;
+                    letter-spacing: 1px;
+                    font-weight: 100; }
+                  .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h3 {
+                    font-family: "TS3 Text Sans";
+                    color: #fefdf8;
+                    font-size: 1em;
+                    margin: 0px 0 15px 20px; }
+                    .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h3 small {
+                      font-weight: 100;
+                      font-size: .8em; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent {
+                position: relative;
+                min-height: auto;
+                height: auto;
+                padding: .5rem 1.5rem 0;
+                background-color: #fefdf8;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+                -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+                -ms-flex-line-pack: start;
+                    align-content: flex-start; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent h2 {
+                  font-size: 1.125rem;
+                  color: #131A1C;
+                  margin: 0; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p strong {
+                  font-weight: 800; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p a {
+                  color: #69D1CA; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li::before {
+                  margin: 0 10px 0 -20px;
+                  padding: 0;
+                  font-weight: 800; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li:nth-child(1)::before {
+                  content: "1."; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li:nth-child(2)::before {
+                  content: "2."; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li:nth-child(3)::before {
+                  content: "3."; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li {
+                  list-style: none;
+                  padding: 0 0 0 20px;
+                  margin: 10px 0; }
+          @media only screen and (max-width: 576px) {
+            .Dialog .DialogInner .InnerSwipe {
+              margin: 2% 4%;
+              width: 92%; } }
+        .Dialog .DialogInner .CardBottomCTA {
+          margin: 25px 0 15px 20px; }
+          .Dialog .DialogInner .CardBottomCTA p {
+            color: #fefdf8;
+            font-size: .9em;
+            line-height: 1.3em;
+            padding-bottom: 1px;
+            letter-spacing: 1px;
+            font-weight: 100; }
+        .Dialog .DialogInner .Counter {
+          font-family: "TS3 Text Sans";
+          color: #131A1C;
+          position: absolute;
+          width: 30%;
+          bottom: 0%;
+          right: 3%;
+          line-height: 2em;
+          text-align: center;
+          display: none; }
+        .Dialog .DialogInner .Stepper {
+          padding: 0;
+          background-color: transparent;
+          width: 100%;
+          position: absolute;
+          bottom: 50%;
+          right: 0%; }
+          .Dialog .DialogInner .Stepper svg {
+            border: 2px solid #131A1C;
+            background-color: #131A1C;
+            fill: white;
+            font-size: 40px;
+            border-radius: 100px; }
+          @media only screen and (max-width: 568px) {
+            .Dialog .DialogInner .Stepper {
+              display: none; } }
+        .Dialog .DialogInner button {
+          color: #131A1C;
+          z-index: 1000; }
+        .Dialog .DialogInner button:hover {
+          background-color: transparent; }
+        .Dialog .DialogInner div[class^="MuiMobileStepper-dot-"], .Dialog .DialogInner div[class*=" MuiMobileStepper-dot-"] {
+          background-color: rgba(31, 106, 242, 0.4);
+          width: 7px; }
+        .Dialog .DialogInner div[class^="MuiMobileStepper-dotActive-"], .Dialog .DialogInner div[class*=" MuiMobileStepper-dotActive-"] {
+          background-color: #131A1C; }
+    @media only screen and (min-width: 1200px) {
+      .Dialog > div + div {
+        width: 700px; }
+      .Dialog > div + div {
+        min-height: 100vh; }
+      .Dialog > div + div {
+        margin: 0vh auto; }
+      .Dialog > div + div {
+        padding: 0vh; } }
+    @media only screen and (min-width: 990px) and (max-width: 1200px) {
+      .Dialog > div + div {
+        width: 700px; }
+      .Dialog > div + div {
+        min-height: 100vh; }
+      .Dialog > div + div {
+        margin: 0vh auto; }
+      .Dialog > div + div {
+        padding: 0vh; } }
+    @media only screen and (min-width: 768px) and (max-width: 990px) {
+      .Dialog > div + div {
+        width: 700px; }
+      .Dialog > div + div {
+        height: 96vh; }
+      .Dialog > div + div {
+        margin: 0.5vh auto; }
+      .Dialog > div + div {
+        padding: 0vh; } }
+    @media only screen and (min-width: 576px) and (max-width: 768px) {
+      .Dialog > div + div {
+        width: 600px; }
+      .Dialog > div + div {
+        height: 96vh; }
+      .Dialog > div + div {
+        margin: 0.5vh auto !important; }
+      .Dialog > div + div {
+        padding: 0vh; } }
+    @media only screen and (max-width: 576px) {
+      .Dialog > div + div {
+        width: 100%; }
+      .Dialog > div + div {
+        height: 98vh; }
+      .Dialog > div + div {
+        margin: 0.1vh !important; }
+      .Dialog > div + div {
+        padding: 0vh; } }
+  
+  /*- Application Styles -*/
+  /************ 
+  ** Application Variables
+  *************/
+  .TheGrid {
+    padding: auto;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    /* Medium Phones ----------- */
+    /* Small Phones ----------- */
+    /* Smartphones (portrait) ----------- */ }
+    #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar, #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar, .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar, .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar {
+      height: 100%;
+      background-color: transparent; }
+    #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2, #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel h2, #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2, .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2, .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel h2, .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2 {
+      color: #fefdf8;
+      font-size: 1.2em;
+      line-height: 1.1em;
+      text-align: left;
+      font-family: "Guardian Headline Regular";
+      letter-spacing: 0px;
+      margin-bottom: 0px;
+      font-weight: 100; }
+    #Glabs .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h4, .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h4 {
+      color: #fefdf8;
+      font-size: .9em;
+      line-height: 1em;
+      text-align: left;
+      font-family: "Guardian Headline Regular";
+      font-weight: 100; }
+    #Glabs .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel i, #Glabs .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i, .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel i, .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i {
+      color: #fefdf8;
+      font-size: 1.2em;
+      line-height: 1.1em;
+      text-align: left;
+      width: 100%;
+      float: unset;
+      opacity: 1;
+      display: block; }
+    .TheGrid .GridItem {
+      padding: 0px;
+      overflow: hidden;
+      -ms-flex-preferred-size: 24%;
+          flex-basis: 24%;
+      margin: .5%; }
+      .TheGrid .GridItem .ItemOuter {
+        position: relative;
+        border-radius: 0;
+        -webkit-box-shadow: unset;
+        box-shadow: unset;
+        border: 0px solid #fefdf8; }
+        .TheGrid .GridItem .ItemOuter .CardCTA {
+          display: -ms-flexbox;
+          display: flex; }
+          .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA {
+            width: 100%;
+            display: inline-block;
+            background-size: cover;
+            background-position: center center;
+            cursor: pointer;
+            position: relative; }
+            .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar {
+              width: 100%;
+              position: absolute;
+              bottom: 0px;
+              height: 100%;
+              text-align: left;
+              border-bottom: 5px solid #7BA88C;
+              -webkit-transition: all .7s;
+              -o-transition: all .7s;
+              transition: all .7s;
+              background-image: url(https://gdn-cdn.s3.amazonaws.com/embed/2019/07/get-cultured/assets/images/HeaderGradient.png);
+              background-position: bottom;
+              background-repeat: repeat-x;
+              background-size: auto 50%; }
+              .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel {
+                position: absolute;
+                bottom: 3%;
+                left: 3%;
+                -webkit-transition: all .7s;
+                -o-transition: all .7s;
+                transition: all .7s; }
+                .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2 {
+                  -webkit-transition: all .7s;
+                  -o-transition: all .7s;
+                  transition: all .7s; }
+                .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h4 {
+                  -webkit-transition: all .7s;
+                  -o-transition: all .7s;
+                  transition: all .7s; }
+                .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i {
+                  display: table-column-group;
+                  -webkit-transition: all .7s;
+                  -o-transition: all .7s;
+                  transition: all .7s; }
+            .TheGrid .GridItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar::before {
+              background-color: rgba(123, 168, 140, 0.7);
+              height: 0%;
+              width: 100%;
+              top: 0;
+              left: 0;
+              content: "";
+              position: absolute; }
+        .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar {
+          border-bottom: 0rem solid rgba(123, 168, 140, 0.7); }
+          .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel {
+            -webkit-transition: all .7s;
+            -o-transition: all .7s;
+            transition: all .7s;
+            bottom: 30%; }
+            .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel h2 {
+              -webkit-transition: all .7s;
+              -o-transition: all .7s;
+              transition: all .7s; }
+            .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar .iconLabel i {
+              -webkit-transition: all .7s;
+              -o-transition: all .7s;
+              transition: all .7s; }
+        .TheGrid .GridItem .ItemOuter .CardCTA:hover a.GridItemCTA .ActionBar::before {
+          background-color: rgba(123, 168, 140, 0.8);
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          content: "";
+          position: absolute;
+          -webkit-transition: all .7s;
+          -o-transition: all .7s;
+          transition: all .7s; }
+    .TheGrid .GridItem.ActiveItem .ItemOuter {
+      border: 1px solid #69D1CA; }
+      .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar {
+        border-bottom: 0rem solid rgba(123, 168, 140, 0.7); }
+        .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel {
+          -webkit-transition: all .7s;
+          -o-transition: all .7s;
+          transition: all .7s;
+          bottom: 30%; }
+          .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel h2 {
+            -webkit-transition: all .7s;
+            -o-transition: all .7s;
+            transition: all .7s; }
+          .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar .iconLabel i {
+            -webkit-transition: all .7s;
+            -o-transition: all .7s;
+            transition: all .7s; }
+      .TheGrid .GridItem.ActiveItem .ItemOuter .CardCTA a.GridItemCTA .ActionBar::before {
+        background-color: rgba(123, 168, 140, 0.8);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        content: "";
+        position: absolute;
+        -webkit-transition: all .7s;
+        -o-transition: all .7s;
+        transition: all .7s; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .TheGrid .GridItem .CardCTA:hover a.GridItemCTA .ActionBar {
+        border-bottom: 11rem solid rgba(123, 168, 140, 0.7) !important; } }
+    @media only screen and (max-width: 768px) {
+      .TheGrid .GridItem {
+        -ms-flex-preferred-size: 49%;
+            flex-basis: 49%;
+        margin: .5%; } }
+    .TheGrid .count {
+      position: absolute;
+      color: #131A1C;
+      background-color: #69D1CA;
+      padding: 5px;
+      width: 3em;
+      text-align: center;
+      top: 0;
+      right: 0;
+      bottom: unset;
+      left: unset; }
+    .FilterBar {
+      width: 100%;
+      display: block;
+      margin: 10px 0; }
+      .FilterBar .FilterButton {
+        border: 1px solid white;
+        color: white;
+        float: right; }
+    .CloseCard {
+      position: absolute !important;
+      top: .5%;
+      right: 7.5%;
+      z-index: 9999;
+      border-radius: unset !important;
+      margin: 10px;
+      background-color: #E9E9E9 !important;
+      color: black !important;
+      border-radius: 100px !important;
+      width: 25px !important;
+      height: 25px !important;
+      cursor: pointer; }
+      .CloseCard .material-icons {
+        color: #131A1C;
+        font-size: .8em; }
+      @media only screen and (max-width: 576px) {
+        .CloseCard {
+          right: 1.5%; } }
+  
+  .FilterDialog, .Dialog {
+    background-color: rgba(255, 255, 255, 0.3); }
+  
+  .FilterDialog .MuiDialog-paperWidthMd-45 {
+    background-color: rgba(33, 51, 58, 0.9); }
+  
+  .FilterDialog .MuiDialog-paperWidthMd-45 h2, .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent h1, .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent h2 {
+    color: #00A194;
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    font-weight: 800; }
+  
+  .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p {
+    color: #131A1C;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0px 0 20px;
+    font-family: "TS3 Text Sans"; }
+  
+  .FilterDialog .MuiDialog-paperWidthMd-45 button {
+    color: #131A1C;
+    border: 1px solid #131A1C; }
+  
+  .FilterDialog .MuiDialog-paperWidthMd-45 form label {
+    color: #131A1C; }
+  
+  .FilterDialog .MuiDialog-paperWidthMd-45 {
+    width: 500px; }
+  
+  .Dialog {
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
+    scrollbar-width: none; }
+    .Dialog ::-webkit-scrollbar {
+      width: 0px; }
+    .Dialog ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+      border-radius: 0px; }
+    .Dialog ::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); }
+    .Dialog > div + div {
+      background-color: transparent;
+      -webkit-box-shadow: unset;
+              box-shadow: unset;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      scrollbar-width: none; }
+    .Dialog .DialogInner {
+      position: relative;
+      margin: 0;
+      padding: 0; }
+      .Dialog .DialogInner .InnerSwipe {
+        margin: 2% 9%;
+        width: 82%;
+        background-color: transparent; }
+        .Dialog .DialogInner .InnerSwipe .CardOuter {
+          background-color: transparent;
+          height: auto; }
+          .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+                flex-direction: column;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+            -ms-flex-line-pack: stretch;
+                align-content: stretch;
+            height: auto;
+            margin: 0; }
+            .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage {
+              height: 45vh;
+              padding: 0;
+              background-position: center center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+              -ms-flex-pack: end;
+                  justify-content: flex-end;
+              -ms-flex-align: stretch;
+                  align-items: stretch; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay {
+                font-family: "TS3 Text Sans";
+                width: 100%;
+                background-image: url(https://gdn-cdn.s3.amazonaws.com/embed/2019/07/get-cultured/assets/images/HeaderGradient.png);
+                background-position: bottom;
+                background-repeat: repeat-x;
+                background-size: 100% 100%; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h1 {
+                  color: #fefdf8;
+                  font-family: "Guardian Headline Regular";
+                  display: table;
+                  margin: 0px;
+                  padding: 0 1.5rem  1.2rem;
+                  position: relative;
+                  font-size: 2.2em;
+                  line-height: 1.1em;
+                  letter-spacing: 1px;
+                  font-weight: 100; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h2 {
+                  color: #fefdf8;
+                  font-family: "Guardian Headline Regular";
+                  font-size: 1.8em;
+                  line-height: 1.1em;
+                  margin: 0 0 10px 0;
+                  margin: 0px 0 15px 20px;
+                  letter-spacing: 1px;
+                  font-weight: 100; }
+                .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h3 {
+                  font-family: "TS3 Text Sans";
+                  color: #fefdf8;
+                  font-size: 1em;
+                  margin: 0px 0 15px 20px; }
+                  .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardImage .ImageOverlay h3 small {
+                    font-weight: 100;
+                    font-size: .8em; }
+            .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent {
+              position: relative;
+              min-height: auto;
+              height: auto;
+              padding: .5rem 1.5rem 0;
+              background-color: #fefdf8;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+              -ms-flex-line-pack: start;
+                  align-content: flex-start; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent h2 {
+                font-size: 1.125rem;
+                color: #131A1C;
+                margin: 0; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p strong {
+                font-weight: 800; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p a {
+                color: #69D1CA; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li::before {
+                margin: 0 10px 0 -20px;
+                padding: 0;
+                font-weight: 800; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li:nth-child(1)::before {
+                content: "1."; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li:nth-child(2)::before {
+                content: "2."; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li:nth-child(3)::before {
+                content: "3."; }
+              .Dialog .DialogInner .InnerSwipe .CardOuter .Imagerow .CardContent p li {
+                list-style: none;
+                padding: 0 0 0 20px;
+                margin: 10px 0; }
+        @media only screen and (max-width: 576px) {
+          .Dialog .DialogInner .InnerSwipe {
+            margin: 2% 4%;
+            width: 92%; } }
+      .Dialog .DialogInner .CardBottomCTA {
+        margin: 25px 0 15px 20px; }
+        .Dialog .DialogInner .CardBottomCTA p {
+          color: #fefdf8;
+          font-size: .9em;
+          line-height: 1.3em;
+          padding-bottom: 1px;
+          letter-spacing: 1px;
+          font-weight: 100; }
+      .Dialog .DialogInner .Counter {
+        font-family: "TS3 Text Sans";
+        color: #131A1C;
+        position: absolute;
+        width: 30%;
+        bottom: 0%;
+        right: 3%;
+        line-height: 2em;
+        text-align: center;
+        display: none; }
+      .Dialog .DialogInner .Stepper {
+        padding: 0;
+        background-color: transparent;
+        width: 100%;
+        position: absolute;
+        bottom: 50%;
+        right: 0%; }
+        .Dialog .DialogInner .Stepper svg {
+          border: 2px solid #131A1C;
+          background-color: #131A1C;
+          fill: white;
+          font-size: 40px;
+          border-radius: 100px; }
+        @media only screen and (max-width: 568px) {
+          .Dialog .DialogInner .Stepper {
+            display: none; } }
+      .Dialog .DialogInner button {
+        color: #131A1C;
+        z-index: 1000; }
+      .Dialog .DialogInner button:hover {
+        background-color: transparent; }
+      .Dialog .DialogInner div[class^="MuiMobileStepper-dot-"], .Dialog .DialogInner div[class*=" MuiMobileStepper-dot-"] {
+        background-color: rgba(31, 106, 242, 0.4);
+        width: 7px; }
+      .Dialog .DialogInner div[class^="MuiMobileStepper-dotActive-"], .Dialog .DialogInner div[class*=" MuiMobileStepper-dotActive-"] {
+        background-color: #131A1C; }
+  
+  @media only screen and (min-width: 1200px) {
+    .Dialog > div + div {
+      width: 700px; }
+    .Dialog > div + div {
+      min-height: 100vh; }
+    .Dialog > div + div {
+      margin: 0vh auto; }
+    .Dialog > div + div {
+      padding: 0vh; } }
+  
+  @media only screen and (min-width: 990px) and (max-width: 1200px) {
+    .Dialog > div + div {
+      width: 700px; }
+    .Dialog > div + div {
+      min-height: 100vh; }
+    .Dialog > div + div {
+      margin: 0vh auto; }
+    .Dialog > div + div {
+      padding: 0vh; } }
+  
+  @media only screen and (min-width: 768px) and (max-width: 990px) {
+    .Dialog > div + div {
+      width: 700px; }
+    .Dialog > div + div {
+      height: 96vh; }
+    .Dialog > div + div {
+      margin: 0.5vh auto; }
+    .Dialog > div + div {
+      padding: 0vh; } }
+  
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .Dialog > div + div {
+      width: 600px; }
+    .Dialog > div + div {
+      height: 96vh; }
+    .Dialog > div + div {
+      margin: 0.5vh auto !important; }
+    .Dialog > div + div {
+      padding: 0vh; } }
+  
+  @media only screen and (max-width: 576px) {
+    .Dialog > div + div {
+      width: 100%; }
+    .Dialog > div + div {
+      height: 98vh; }
+    .Dialog > div + div {
+      margin: 0.1vh !important; }
+    .Dialog > div + div {
+      padding: 0vh; } }
+  
+  
+  
+  // WEBPACK FOOTER //
+  // ./src/App.css

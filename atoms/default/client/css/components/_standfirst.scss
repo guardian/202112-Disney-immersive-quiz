@@ -1,0 +1,16 @@
+
+$stand-first-color: var(--brand-primary);
+.standfirst {
+    display: flex;
+    justify-content: center;
+    .content {
+        background-color: $stand-first-color;
+        border-radius: 0.7rem;
+        margin: auto;
+        max-width: 40rem;
+        color: white;
+        width: 90%;
+        padding: 2rem;
+
+    }
+}

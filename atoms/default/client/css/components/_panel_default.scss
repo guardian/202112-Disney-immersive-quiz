@@ -1,0 +1,48 @@
+
+.panel-default {
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+
+
+
+    >.wrap {
+        position: relative;
+        padding: 2rem;
+        border: 2px #EECD5C solid;
+        
+        @include mq(tablet) {
+            margin: 2rem;
+
+        }
+
+        >.body {
+            min-height: 72vh;
+        }
+    }
+    h1 {
+      color: white;
+    }
+    h2 {
+      color: white;
+      font-size: 30/16 + rem;
+    }
+  
+    p {
+      color: white;
+    }
+    &.light-text {
+        p {
+            color: white;
+        }
+    }
+    transition: background 1s ease-in-out 1s;
+  
+    &.view-quiz {
+      background-color: var(--brand-secondary);
+      p, h1, h2, div {
+        color: white;
+      }
+    }
+  }
