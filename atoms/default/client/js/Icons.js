@@ -31,7 +31,7 @@ export const Unmuted = () => {
 export const Logo = () => {
     return (
 		<div className="logo">
-			<img src={`${assetsPath}/paidfor_logo_2x.png`} width="140" alt="" />
+			<img src={`${assetsPath}/paidfor_logo_2x.png`} width="105" alt="" />
 		</div>
     )    
 }
