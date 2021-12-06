@@ -63,27 +63,32 @@ p a {
 }
 h1, h2 {
   line-height: 1.2;
-  font-size: 36/16 + rem;
+
   // text-decoration: underline;
   // text-transform: uppercase;
-  font-family: "Display Sans", serif;
+  font-family: "Guardian Egyptian Web", serif;
   
   
   span {
     font-weight: 700;
-    font-family: "Display Sans", serif;
+    font-family: "Guardian Egyptian Web", serif;
   }
+}
+
+h1 {
+  font-size: 36/16 + rem;
+  font-weight: 800;
   @include mq(tablet) {
     font-size: 64/16 + rem;
   }
 }
 
-h1 {
-  font-weight: 800;
-}
-
 h2 {
   font-weight: 800;
+  font-size: 22/16 + rem;
+  @include mq(tablet) {
+    font-size: 34/16 + rem;
+  }
 }
 
 h3 {
