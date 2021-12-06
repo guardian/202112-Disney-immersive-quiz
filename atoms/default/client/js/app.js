@@ -216,7 +216,8 @@ const FeedbackPanel = (props) => {
     }
 
     useEffect(()=>{
-        if (score > 7) {
+        const pct = score/globalData.questionCount;
+        if (pct > .75) {
             setFB(data.fba);
             setImage([
                 h(IconStar,{filled: true, delay: 0}),
@@ -224,7 +225,7 @@ const FeedbackPanel = (props) => {
                 h(IconStar,{filled: true, delay: 2.4}),
                 h(IconStar,{filled: true, delay: 3.6}),
             ]);
-        } else if (score > 5) {
+        } else if (pct > .5) {
             setFB(data.fbb);
             setImage([
                 h(IconStar,{filled: true, delay: 0}),
@@ -232,7 +233,7 @@ const FeedbackPanel = (props) => {
                 h(IconStar,{filled: true, delay: 0.4}),
                 h(IconStar),
             ]);
-        } else if (score > 3) {
+        } else if (pct > .25) {
             setFB(data.fbc);
             setImage(h(IconFbc));
             setImage([
@@ -338,6 +339,7 @@ const QuestionOptions = ({className, onSelect, disabled}) => {
 
                 const handleOnChange = (e) => {
                     e.preventDefault()
+                    if (!value) return;
                     const lv  = Lev(data.actor.toLowerCase(), value.toLowerCase());
                     console.log(value, lv, data.actor);
                     // setChecked(e.target.value)
@@ -354,7 +356,7 @@ const QuestionOptions = ({className, onSelect, disabled}) => {
             
                     return <form onSubmit={handleOnChange}>
                         <input ref={ref} type="text" name={`qop`} id={`qop${qid}`} value={value} onChange={inputRecieved} disabled={disabled} />
-            
+                        <button type="submit">Submit</button>
                     </form>
                 };
 
@@ -410,7 +412,7 @@ window.gsap = gsap;
 const ResultLabel = (props) => {
     return (
         <div className={`result-label inline-block ${props?.className}`} >
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center">
                 {props.children}
             </div>
         </div>

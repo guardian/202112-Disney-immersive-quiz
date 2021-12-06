@@ -4,6 +4,7 @@
   --brand-alt: #EECD5C;
   --brand-alt-b: #D8E9E7;
   --button-bg-blue: #2B317A;
+  --headline-font: "Guardian Egyptian Web";
 }
 
 body {
@@ -282,12 +283,24 @@ section.footer {
 }
 
 
-
+[type='submit'] {
+  display: block;
+  background: var(--brand-alt);
+  padding: 0.5rem;
+  width: 8rem;
+  margin: 1rem auto;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: var(--headline-font);  
+}
 
 
 .feature-image {
-  margin: 0 auto 2rem;
+  margin: 1rem auto 2rem;
   max-width: 70%;
+  box-shadow: 2px 9px 17px 0px black;
+  transform: rotate(-3deg);
 }
 
 .view-home {
@@ -396,7 +409,8 @@ section.footer {
 
   p {
     font-size: 29/16 + rem;
-
+    font-family: var(--headline-font); 
+    font-weight: bold;
   }
 }
 
@@ -455,14 +469,25 @@ section.footer {
   }
 }
 
-.home-panel {
+.view-home {
   background-size: contain;
 
+  
   h1 {
     color: black;
   }
   p {
      color: black
+  }
+
+  @include mq(tablet) {
+    background-size: 60%;
+  }
+  @include mq(desktop) {
+    background-size: 42%;
+  }
+  @include mq(xl) {
+    background-size: 24%;
   }
 }
 
@@ -477,8 +502,11 @@ section.footer {
 }
 
 .result-label {
-  padding: 1rem;
-
+  padding: 0.4rem 1rem;
+  
+  svg {
+    transform: scale(0.5);
+  }
   &.ca {
     background-color: #00A147;
   }
