@@ -184,7 +184,7 @@ const HomePanel = (props) => {
         dispatch({type:ACTION_SET_VIEW, payload: 'intro'})
     }
     return (
-        <DefaultPanel class="home-panel text-center" style={{backgroundImage:`url(${assetsPath}/landing_bg_2x.jpg)`}}>
+        <DefaultPanel className="home-panel text-center" style={{backgroundImage:`url(${assetsPath}/landing_bg_2x.jpg)`}}>
             
             <div className="header">
                 <Attribution content={globalData} />
@@ -279,9 +279,9 @@ const IntroPanel = (props) => {
 
 
     return (
-        <DefaultPanel class="intro-panel text-center light-text" style={{backgroundImage:`url(${assetsPath}/001_bg_1x.jpg)`}}>
+        <DefaultPanel className="intro-panel text-center light-text" style={{backgroundImage:`url(${assetsPath}/001_bg_1x.jpg)`}}>
             <div className="max-w-md mx-auto mb-8" dangerouslySetInnerHTML={setHtml(globalData.intro)} />
-            <a href="#" class="btn" onClick={handleClick}><IconNext /></a>
+            <a href="#" className="btn" onClick={handleClick}><IconNext /></a>
         </DefaultPanel>
     )
 }
@@ -536,7 +536,7 @@ const QuizPanel = (props) => {
                                     <FeatureImage src={`${assetsPath}/character_headshot_${data[question].image}.jpg`} />
 
                                 </div>
-                                <div className="flex justify-center flex-col">
+                                <div className="flex justify-center flex-col p-4">
                                     <div className="question-text text-center" dangerouslySetInnerHTML={setHtml(data[question].questionText)}/>
                                     <FeatureImage className="lg:hidden" src={`${assetsPath}/character_headshot_${data[question].image}.jpg`} />
                                     <QuestionOptions onSelect={onSelectOption} className={(ca? 'complete': '') + ' text-center'} disabled={ca} />
