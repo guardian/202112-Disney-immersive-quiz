@@ -85,7 +85,7 @@ h1 {
 
 h2 {
   font-weight: 800;
-  font-size: 22/16 + rem;
+  font-size: 18/16 + rem;
   @include mq(tablet) {
     font-size: 34/16 + rem;
   }
