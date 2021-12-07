@@ -535,7 +535,7 @@ const QuizPanel = (props) => {
                     appear={true}
                     >
                         {!done && <div className="lg:m-8">
-                            <div className="flex">
+                            <div className="flex justify-center">
                                 <div className="hidden lg:block">
                                     <FeatureImage src={`${assetsPath}/character_headshot_${data[question].image}.jpg`} />
 

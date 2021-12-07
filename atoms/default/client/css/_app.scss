@@ -530,7 +530,7 @@ section.footer {
     max-height: 100%;
   }
   @include mq(desktop) {
-    background-image: none;
+    background-image: none !important;
   }
 }
 
