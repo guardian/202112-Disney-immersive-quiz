@@ -486,6 +486,12 @@ section.footer {
      color: black
   }
 
+  @media screen and (max-height: 726px) {
+    &> .wrap > .body{
+      min-height: 84vh;
+    }
+  }
+
   @include mq(tablet) {
     background-size: 60%;
   }
