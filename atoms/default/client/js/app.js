@@ -254,7 +254,7 @@ const FeedbackPanel = (props) => {
     },[]);
 
     return (
-        <DefaultPanel className="feedback-panel text-center"  style={{backgroundImage:`url(${assetsPath}/001_bg_1x.jpg)`}}>
+        <DefaultPanel className="feedback-panel text-center"  style={{backgroundImage:`url(${assetsPath}/003_bg_1x.jpg)`}}>
             <div className="score">
                 <h3 className="text-center" dangerouslySetInnerHTML={setHtml(globalData.resultsTitle)}> </h3>
             </div>
@@ -493,8 +493,10 @@ const QuizPanel = (props) => {
                     background: `url(${assetsPath}/character_large_${data[question].image}.jpg) no-repeat 50%`,
                     height: '40vh'
                 }} /> */}
-                <div>
-                    <img className="result-image" src={`${assetsPath}/character_large_${data[question].image}.jpg`} alt="" />
+                <div className="result-image"  style={{
+                    backgroundImage: `url(${assetsPath}/character_large_${data[question].image}.jpg)`
+                }}>
+                    <img src={`${assetsPath}/character_large_${data[question].image}.jpg`} alt="" className="hidden lg:block" />
 
                 </div>
                 <div className="m-4 lg:m-8 -mt-4 results-block">

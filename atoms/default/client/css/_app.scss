@@ -303,7 +303,7 @@ section.footer {
   transform: rotate(-3deg);
 }
 
-.view-home {
+.home-panel {
   h4 a {
     margin-top: 1rem;
     color: white;
@@ -345,8 +345,14 @@ section.footer {
 
   .body {
     display: flex;
-    align-items: center;
+    flex-direction: column;    
     justify-content: center;
+    align-items: stretch;
+
+    @include mq(desktop) {
+      align-items: center;
+
+    }
   }
   >.wrap {
     padding: 0;
@@ -357,7 +363,7 @@ section.footer {
 
   }
   .fb {
-    padding: 1rem 0;
+    padding: 1rem;
   }
   .score {
     display: flex;
@@ -448,7 +454,7 @@ section.footer {
   }
 }
 
-.view-feedback {
+.feedback-panel {
   .score {
     h3 {
       margin-bottom: 2rem;
@@ -469,7 +475,7 @@ section.footer {
   }
 }
 
-.view-home {
+.home-panel {
   background-size: contain;
 
   
@@ -516,10 +522,20 @@ section.footer {
 }
 
 .result-image {
-  max-height: 50vh;
+  height: 40vh;
+  width: 100%;
   margin: auto;
+  background: no-repeat 50% 0/cover;
+  img {
+    max-height: 100%;
+  }
+  @include mq(desktop) {
+    background-image: none;
+  }
 }
 
 .results-block {
   max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;  
 }
