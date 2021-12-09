@@ -150,7 +150,7 @@ p {
 @import 'components/button';
 
 
-section {
+#Glabs section {
   padding: 2rem 0;
 }
 
@@ -488,7 +488,7 @@ section.footer {
 
   @media screen and (max-height: 726px) {
     &> .wrap > .body{
-      min-height: 84vh;
+      min-height: 94vh;
     }
   }
 
